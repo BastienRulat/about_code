@@ -5,11 +5,9 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 
 # Download a theme on https://themes.gohugo.io/ by cloning in .\themes and list them ear
-theme = [
-  "hyde-hyde",               # https://github.com/htr3n/hyde-hyde.git
-  "simplicity",         # https://github.com/eshlox/simplicity.git
-  "hugo-theme-learn"    # https://github.com/matcornic/hugo-theme-learn.git
-]
+theme = "hyde-hyde"       # https://github.com/htr3n/hyde-hyde.git
+  # "simplicity",         # https://github.com/eshlox/simplicity.git
+  # "hugo-theme-learn"    # https://github.com/matcornic/hugo-theme-learn.git
 
 # [outputs]
 # home = [ "HTML", "RSS", "JSON"]
