@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on About code</title>
+    <link>https://aboutcode.netlify.com/hugo/</link>
+    <description>Recent content in Hugo on About code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 17 Nov 2019 15:08:15 +0100</lastBuildDate>
+    
+	<atom:link href="https://aboutcode.netlify.com/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installer Hugo</title>
+      <link>https://aboutcode.netlify.com/hugo/installer_hugo/</link>
+      <pubDate>Sun, 17 Nov 2019 18:49:34 +0100</pubDate>
+      
+      <guid>https://aboutcode.netlify.com/hugo/installer_hugo/</guid>
+      <description>Pour installer Hugo sous WIndows 10, nous allons passer par le gestionnaire de paquet scoop.
+Ouvrons un terminal (comme cmder) muni d&amp;rsquo;un interpréteur PowerShell ou PowerShell Core et récupérons scoop :
+PS &amp;gt; iwr -useb get.scoop.sh | iex  Ensuite, on utilise scoop pour installer hugo
+PS &amp;gt; scoop install hugo  Vérifions que hugo a bien été installé par scoop :
+PS &amp;gt; hugo version  </description>
+    </item>
+    
+    <item>
+      <title>Créer un site en local</title>
+      <link>https://aboutcode.netlify.com/hugo/creer_un_site_en_local/</link>
+      <pubDate>Mon, 18 Nov 2019 00:01:31 +0100</pubDate>
+      
+      <guid>https://aboutcode.netlify.com/hugo/creer_un_site_en_local/</guid>
+      <description>Hugo vous met à disposition de nombreuses commandes bien pratique.
+Placez-vous dans votre $HOME, et
+PS &amp;gt; hugo new site un_site_avec_hugo PS &amp;gt; cd un_site_avec_hugo  </description>
+    </item>
+    
+    <item>
+      <title>Ajouter un thème</title>
+      <link>https://aboutcode.netlify.com/hugo/ajouter_un_theme/</link>
+      <pubDate>Mon, 18 Nov 2019 00:21:05 +0100</pubDate>
+      
+      <guid>https://aboutcode.netlify.com/hugo/ajouter_un_theme/</guid>
+      <description>Pour ajouter un thème, nous allons utiliser la notion de module de git est par la même occasion initialiser notre git dans le projet.
+Pour installer git, nous utilisons une fois de plus scoop.
+PS &amp;gt; scoop install git PS &amp;gt; cd $HOME/un_site_avec_hugo PS &amp;gt; git init . PS &amp;gt; git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugo-theme-learn  Ensuite, il nous faut éditer le fichier de configuration du projet qui peut-être dans différent format (YAML, TOML, JSON), dans mon cas c&amp;rsquo;est du TOML.</description>
+    </item>
+    
+    <item>
+      <title>Installer Netlify CMS</title>
+      <link>https://aboutcode.netlify.com/hugo/installer_netlifycms/</link>
+      <pubDate>Mon, 18 Nov 2019 01:48:52 +0100</pubDate>
+      
+      <guid>https://aboutcode.netlify.com/hugo/installer_netlifycms/</guid>
+      <description>Pour gérer le contenu de notre site, nous allons utiliser l&amp;rsquo;approche des CMS headless. ici nous utiliserons netlify CMS. Pour installer Netlify CMS, il suffit de créer un répertoire admin à la racine de notre site et d&amp;rsquo;y mettre deux fichiers : - index.html
+&amp;lt;!doctype html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;gt; &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot; /&amp;gt; &amp;lt;title&amp;gt;Content Manager&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;!-- Include the script that builds the page and powers Netlify CMS --&amp;gt; &amp;lt;script src=&amp;quot;https://unpkg.</description>
+    </item>
+    
+    <item>
+      <title>Connecter un dépôt Github</title>
+      <link>https://aboutcode.netlify.com/hugo/connecter_un_depot_github/</link>
+      <pubDate>Mon, 18 Nov 2019 02:07:16 +0100</pubDate>
+      
+      <guid>https://aboutcode.netlify.com/hugo/connecter_un_depot_github/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
