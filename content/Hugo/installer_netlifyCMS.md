@@ -1,6 +1,7 @@
 ---
 title: "Installer Netlify CMS"
 date: 2019-11-18T01:48:52+01:00
+weight: 5
 draft: false
 ---
 

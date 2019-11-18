@@ -1,6 +1,7 @@
 ---
 title: "Installer Hugo"
 date: 2019-11-17T18:49:34+01:00
+weight: 2
 draft: false
 ---
 

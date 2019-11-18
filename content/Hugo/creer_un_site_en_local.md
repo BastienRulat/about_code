@@ -1,6 +1,7 @@
 ---
 title: "Créer un site en local"
 date: 2019-11-18T00:01:31+01:00
+weight: 3
 draft: false
 ---
 

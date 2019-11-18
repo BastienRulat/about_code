@@ -1,11 +1,10 @@
 +++
 title = "Hugo"
-hidden = true
-disableToc = false
 date = 2019-11-17T15:08:15+01:00
-weight = 5
+weight = 1
 chapter = true
 pre = "<b>1. </b>"
+post = ""
 draft = false
 +++
 
