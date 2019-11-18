@@ -13,4 +13,3 @@ PS > hugo new site un_site_avec_hugo
 
 PS > cd un_site_avec_hugo
 ```
-
