@@ -1,15 +1,15 @@
 +++
 title = "Hugo"
+hidden = true
+disableToc = false
 date = 2019-11-17T15:08:15+01:00
 weight = 5
 chapter = true
-pre = "<b>X. </b>"
-
-# By default, hugo allows me to set draft, publishdate and even expirydate in your content's front matter.
+pre = "<b>1. </b>"
 draft = false
 +++
 
-### Faire des sites webs avec Hugo
+# Faire des sites web avec Hugo
 
 Dans cette série d'articles, nous allons voir comment développer des sites webs selon les principes de la JAMstack à l'aide d'Hugo, le plus puissant générateur de site web statique en 2020.
 
