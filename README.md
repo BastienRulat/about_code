@@ -1,4 +1,4 @@
-# The website on https://aboutcode.netlify.app/hugo/
+The website on https://aboutcode.netlify.app/hugo/
 
 # Get started
 
